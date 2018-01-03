@@ -1,0 +1,11 @@
+Run by JAR File
+1. Unzip Blackjack.rar
+2. Open the command prompt and change to the directory you unpacked the zip to
+3. Use java -jar Blackjack.jar in the command line
+
+Play in Eclipse
+1. In Eclipse go to File->Import->Existing Projects into Workspace under General, make sure Select Archieve File
+is selected and browse to find the Blackjack.rar file. Click finish.
+2. Run Main.java
+
+Jonathan Otterbein

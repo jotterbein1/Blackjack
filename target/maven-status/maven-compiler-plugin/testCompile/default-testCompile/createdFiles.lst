@@ -1,0 +1,5 @@
+com\nextcentury\blackjack\game\TestBlackjackGame.class
+com\nextcentury\blackjack\objects\CardTest.class
+com\nextcentury\blackjack\objects\DeckTests.class
+com\nextcentury\blackjack\objects\HandTest.class
+com\nextcentury\blackjack\objects\PlayerTest.class
