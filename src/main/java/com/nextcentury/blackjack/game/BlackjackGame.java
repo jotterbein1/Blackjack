@@ -57,11 +57,11 @@ public class BlackjackGame {
 			while(player.getHandVal() < 21) {
 				System.out.println("Player's turn. Pick to hit or stand \n");
 				choice = scanner.nextLine().toUpperCase();
-				if(choice.equals("STAND")) {
+				if(choice.equals("STAND") || choice.equals("S")) {
 					System.out.println("Player stands \n");
 					break;
 				}
-				else if(choice.equals("HIT")) {
+				else if(choice.equals("HIT")|| choice.equals("H")) {
 					System.out.println("Player hits \n");
 					player.addCard(deck.drawCard());
 					System.out.println(showInitinalHand());
